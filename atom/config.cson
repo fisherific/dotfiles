@@ -1,0 +1,30 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-rspec"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "chester-atom-syntax"
+    ]
+  editor:
+    fontSize: 20
+    invisibles: {}
+    showInvisibles: true
+  "exception-reporting":
+    userId: "257c2390-b230-ba68-b9b5-7d0ec31b5a01"
+  "markdown-preview-plus": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "ruby-test":
+    rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+    rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
+    specFramework: "rspec"
+  "spell-check": {}
+  "tree-view":
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false

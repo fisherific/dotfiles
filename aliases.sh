@@ -1,0 +1,15 @@
+alias ea="atom ~/.bashrc --wait && . ~/.bashrc"
+alias v='vagrant'
+alias gco='git checkout'
+alias ga='git add'
+alias gc='git commit'
+alias gs='git status'
+alias gd='git diff'
+alias gds='git diff --stat'
+alias gl='git log --pretty=format:"%h - %aD, %an : %s --- %b" --graph'
+alias ll='ls -lhG'  # -l long listing, human readable, no group info
+alias br='git rev-parse --abbrev-ref HEAD'
+alias cpbr='git rev-parse --abbrev-ref HEAD | xargs echo -n | pbcopy'
+alias gpp='git status | fpp'
+alias be='bundle exec'
+alias ls='ls -GFlash'
