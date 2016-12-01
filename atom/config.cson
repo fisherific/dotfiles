@@ -5,11 +5,10 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
+      "atom-material-ui"
       "chester-atom-syntax"
     ]
   editor:
-    fontSize: 20
     invisibles: {}
     showInvisibles: true
   "exception-reporting":
